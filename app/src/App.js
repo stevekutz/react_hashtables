@@ -1,15 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 
-inputhandler = () => {
+inputhandler = (e) => {
      
 
 }
 
 
 function App() {
+     const [text, setText] = useState('', 'Text Here')
+
   return (
     <div className="App">
           <input type =  'text' />
